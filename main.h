@@ -29,4 +29,5 @@ void print_number(int n);
 int print_unsigned(va_list l, specs *f);
 int count_digit(int i);
 
+int (*get_func(char x))(va_list args);
 #endif
